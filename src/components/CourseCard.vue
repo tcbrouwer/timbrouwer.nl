@@ -1,6 +1,6 @@
 <template>
     <b-card 
-        img-src="favicon.ico" 
+        :img-src="url" 
         img-alt="vue" 
         img-top
         style="min-width: 20rem; max-width: 30rem"
@@ -26,7 +26,12 @@
 <script>
 export default {
   name: 'CourseCard',
-  props: ['title']
+  props: ['title'],
+  data() {
+      return {
+          url: "https://picsum.photos/200/200?random=" + Math.random()  
+      }
+  }
 }
 </script>
 
