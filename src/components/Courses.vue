@@ -3,7 +3,7 @@
     <h1>Cursus aanbod</h1>
     
     <div>
-      <b-card-group deck>
+      <b-card-group class="m-5" deck>
         <CourseCard v-for="course in courses" :key=course.id
           :title = course.title
         />
@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import CourseCard from '@/components/CourseCard.vue'
 
 export default {
