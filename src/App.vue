@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Stay home chalkboard" src="./assets/sharon-mccutcheon-gxkWSW6K15Y-unsplash_cropped.png">
+  <div>Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sharon McCutcheon</a> on <a href="https://unsplash.com/s/photos/quarantine?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a> (cropped)</div>
+  <WelcomeMessage />
+  <Courses />
+  <Contact />
+  <FAQ />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Contact from '@/components/Contact.vue'
+import Courses from '@/components/Courses.vue'
+import FAQ from '@/components/FAQ.vue'
+import WelcomeMessage from '@/components/WelcomeMessage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Contact,
+    Courses,
+    FAQ,
+    WelcomeMessage
   }
 }
 </script>
