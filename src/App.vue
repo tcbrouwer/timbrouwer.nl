@@ -11,11 +11,11 @@
 </template>
 
 <script lang="ts">
-import Categories from '@/components/Categories.vue'
-import Contact from '@/components/Contact.vue'
-import Courses from '@/components/Courses.vue'
-import FAQ from '@/components/FAQ.vue'
-import WelcomeMessage from '@/components/WelcomeMessage.vue'
+import Categories from '@/views/Categories.vue'
+import Contact from '@/views/Contact.vue'
+import Courses from '@/views/Courses.vue'
+import FAQ from '@/views/FAQ.vue'
+import WelcomeMessage from '@/views/WelcomeMessage.vue'
 
 export default {
   name: 'App',

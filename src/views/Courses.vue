@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts">
-import CourseCard from '@/components/CourseCard.vue'
+import CourseCard from './courses/CourseCard.vue'
 
 export default {
   name: 'Courses',
