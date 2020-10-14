@@ -5,6 +5,7 @@
   <WelcomeMessage />
   <Categories />
   <Courses />
+  <TipList />
   <Contact />
   <FAQ />
   </div>
@@ -15,6 +16,7 @@ import Categories from '@/views/Categories.vue'
 import Contact from '@/views/Contact.vue'
 import Courses from '@/views/Courses.vue'
 import FAQ from '@/views/FAQ.vue'
+import TipList from '@/views/TipList.vue'
 import WelcomeMessage from '@/views/WelcomeMessage.vue'
 
 export default {
@@ -24,6 +26,7 @@ export default {
     Contact,
     Courses,
     FAQ,
+    TipList,
     WelcomeMessage
   }
 }
