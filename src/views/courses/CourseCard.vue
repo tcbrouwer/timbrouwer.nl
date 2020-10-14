@@ -1,6 +1,6 @@
 <template>
     <b-card 
-        :img-src="url" 
+        :img-src="picurl" 
         img-alt="vue" 
         img-top
         style="min-width: 20rem; max-width: 30rem"
@@ -29,7 +29,7 @@ export default {
   props: ['title'],
   data() {
       return {
-          url: "https://picsum.photos/200/200?random=" + Math.random()  
+          picurl: "https://picsum.photos/200/200?random=" + Math.random()  
       }
   }
 }
