@@ -41,7 +41,7 @@ export default {
         return this.course.duration ? this.course.duration : "Onbekend"
       },
       link: () => {
-        if( this.course.link === null ) {
+        if( this.course.link === undefined ) {
           return { url: "", text: "Nog geen link" }
         } else {
           return {
@@ -51,7 +51,7 @@ export default {
         }
       },
       trainer: () => {
-        if( this.course.trainer === null ) {
+        if( this.course.trainer === undefined ) {
           return { name: "Onbekend", avatar: this.randomPic() }
         } else {
           return {

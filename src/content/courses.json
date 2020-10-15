@@ -8,12 +8,7 @@
         "description": "Heb jij altijd al willen jongleren omdat het goed is voor je hersenen (https://moreballs.com/het-effect-van-jongleren/), of gewoon omdat het leuk is? Begin vast met een cursus en doe mee met de digitale oefensessies!",
         "audience": "Iedereen die van ballen houd",
         "duration": "Twee weken",
-        "start": "Onbekend",
         "cost": "Gratis (bijdrage wordt gewaardeerd)",
-        "link": {
-            "url": "http://interne.of.externe.link",
-            "text": "Ga naar ...(?)"
-        },
         "categories": [
             "ontspanning"
         ]
@@ -27,12 +22,7 @@
         "description": "Wil jij weten wat de bouwstenen zijn onder Google translate? Of welke stappen er nodig zijn om brieven uit de Gouden Eeuw doorzoekbaar te maken voor digitaal historisch onderzoek? Volg dan de cursus NLP (natural language processing)!",
         "audience": "Iedereen die van taal en computers houdt",
         "duration": "2 uur",
-        "start": "Onbekend",
         "cost": "Gratis (bijdrage wordt gewaardeerd)",
-        "link": {
-            "url": "http://interne.of.externe.link",
-            "text": "Ga naar ...(?)"
-        },
         "categories": [
             "tech", "taal"
         ]
@@ -46,12 +36,7 @@
         "description": "Zie jij ook vaak rijen, maar gedragen je klanten zich onverspelbaar? Leer planningsbeslissingen nemen met behulp van Queuing Theory!",
         "audience": "Iedereen die vaak in de rij staat en van toegepaste wiskunde houdt",
         "duration": "2 uur",
-        "start": "Onbekend",
         "cost": "Gratis (bijdrage wordt gewaardeerd)",
-        "link": {
-            "url": "http://interne.of.externe.link",
-            "text": "Ga naar ...(?)"
-        },
         "categories": [
             "wiskunde"
         ]
@@ -82,10 +67,7 @@
             "avatar": "https://img.codefor.nl/?url=http://www.webmapper.net/img/niene.png&width=320"
         },
         "description": "Web essentials voor geo, geo essentials voor web. Je hoeft geen GIS- of web-expert te zijn, maar dat mag wel! ",
-        "audience": "Iedereen",
         "duration": "2w",
-        "start": "Onbekend",
-        "cost": "Onbekend",
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
@@ -103,8 +85,7 @@
         "description": "Hoe werkt het web en wat zijn web services? Een introductie voor beleidsmakers en projectmanagers. ",
         "audience": "Beleidsmakers en projectmanagers",
         "duration": "4u",
-        "start": "Onbekend",
-        "cost": "Onbekend",
+
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
@@ -120,10 +101,7 @@
             "avatar": "https://img.codefor.nl/?url=https://www.codefor.nl/img/milo.jpg&width=320"
         },
         "description": "Open source is meer dan software, het is een manier van samenwerken. Leer meer over hoe dat werkt.",
-        "audience": "Iedereen",
         "duration": "2u",
-        "start": "Onbekend",
-        "cost": "Onbekend",
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
@@ -139,10 +117,7 @@
             "avatar": "https://img.codefor.nl/?url=https://yt3.ggpht.com/a/AGF-l79Ktqa8j3CU5Pvh2VbdKTTRn9oOt971ZRxttg=s900-c-k-c0xffffffff-no-rj-mo&width=320"
         },
         "description": "Leer tekenen inzetten voor betere communicatie en samenwerking, voor meer duidelijkheid en begrip.",
-        "audience": "Iedereen",
         "duration": "8u",
-        "start": "Onbekend",
-        "cost": "Onbekend",
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
@@ -158,10 +133,7 @@
             "avatar": "https://img.codefor.nl/?url=https://miro.medium.com/max/3150/1*4E8Ui8pETAc_vSbHZolxIQ.jpeg&width=320"
         },
         "description": "Smart Cities lijken een nieuw fenomeen, maar het gaat verder terug dan je denkt.",
-        "audience": "Iedereen",
         "duration": "2u",
-        "start": "Onbekend",
-        "cost": "Onbekend",
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
@@ -177,10 +149,7 @@
             "avatar": "https://img.codefor.nl/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTsCeR1zuZ9JfNAQ1Hh9X4tzxnnzHeBZMnOjnHW-_DQ8_L_xDF&width=320"
         },
         "description": "Beginnen met Agile werken in teams en opschalen van Agile werken.",
-        "audience": "Iedereen",
         "duration": "2u",
-        "start": "Onbekend",
-        "cost": "Onbekend",
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
@@ -196,10 +165,7 @@
             "avatar": "https://img.codefor.nl/?url=https://pbs.twimg.com/profile_images/842125977782214659/wADSTW8p_400x400.jpg&width=320"
         },
         "description": "Kun je data altijd middelen? Wanneer gebruik je een cirkeldiagram? Leer wat data is, en hoe je het gebruikt.",
-        "audience": "Iedereen",
         "duration": "2u",
-        "start": "Onbekend",
-        "cost": "Onbekend",
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
@@ -215,10 +181,7 @@
             "avatar": "https://img.codefor.nl/?url=https://www.divosa.nl/sites/default/files/guide/divosa_vrijdag_arjan_widlag.jpg&width=320"
         },
         "description": "Digitale transformatie verandert de relatie tussen burger en overheid. Waarom gaat dit vaak mis, en hoe voorkomen we dat? ",
-        "audience": "Iedereen",
         "duration": "2u",
-        "start": "Onbekend",
-        "cost": "Onbekend",
         "link": {
             "url": "http://interne.of.externe.link",
             "text": "Ga naar Code4NL(?)"
