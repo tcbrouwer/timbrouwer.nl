@@ -3,7 +3,8 @@
     :img-src="trainer().avatar"
     img-alt="vue"
     img-top
-    style="min-width: 20rem; max-width: 25rem"
+    style="min-width: 15rem; max-width: 25rem"
+    class="mb-5"
   >
     <b-card-title>{{ course.name }}</b-card-title>
     <b-card-sub-title class="mb-2">Trainer: {{ trainer().name }}</b-card-sub-title>
