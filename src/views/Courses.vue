@@ -19,6 +19,7 @@ import CourseRequest from './courses/CourseRequest.vue'
 
 // This is a stub, should load from server
 import courses from '@/content/courses.json'
+import externals from '@/content/externals.json'
 
 export default {
   name: 'Courses',
@@ -37,7 +38,7 @@ export default {
   methods: {
     getCourses() {
       // This should become an API call to server
-      this.courses = courses
+      this.courses = courses.concat( externals )
     }
   }
 }
