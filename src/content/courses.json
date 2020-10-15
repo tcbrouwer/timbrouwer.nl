@@ -1,5 +1,19 @@
 [
     {
+        "name": "Bouw mee aan quarantaine.academy",
+        "trainer": {
+            "name": "Iedereen"
+        },
+        "description": "Help mee met de ontwikkeling van het concept, draag cursussen aan, of duik in de code!",
+        "duration": "Zolang er nog quarantaines zijn",
+        "start": "Zodra je tijd hebt",
+        "cost": "Gratis natuurlijk",
+        "link": {
+            "url": "https://codefornl.slack.com/app_redirect?channel=quarantaine-academy",
+            "text": "Ga naar het kanaal in Code4NL Slack!"
+        }
+    },
+    {
         "name": "Leren jongleren in twee weken",
         "trainer": {
             "name": "Jongleer collectief 'de voorbeeldnaam",

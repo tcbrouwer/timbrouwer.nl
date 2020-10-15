@@ -7,7 +7,6 @@
         <CourseCard v-for="course in courses" :key=course.name
           :course = course
         />
-        <CourseRequest />
       </b-card-group>
     </div>  
   </div>
@@ -15,7 +14,6 @@
 
 <script lang="ts">
 import CourseCard from './courses/CourseCard.vue'
-import CourseRequest from './courses/CourseRequest.vue'
 
 // This is a stub, should load from server
 import courses from '@/content/courses.json'
@@ -25,7 +23,6 @@ export default {
   name: 'Courses',
   components: {
     CourseCard,
-    CourseRequest
   },
   data() {
     return {
