@@ -1,5 +1,81 @@
 [
     {
+        "name": "Leren jongleren in twee weken",
+        "trainer": {
+            "name": "Jongleer collectief 'de voorbeeldnaam",
+            "avatar": "https://picsum.photos/320/320?random=3"
+        },
+        "description": "Heb jij altijd al willen jongleren omdat het goed is voor je hersenen (https://moreballs.com/het-effect-van-jongleren/), of gewoon omdat het leuk is? Begin vast met een cursus en doe mee met de digitale oefensessies!",
+        "audience": "Iedereen die van ballen houd",
+        "duration": "Twee weken",
+        "start": "Onbekend",
+        "cost": "Gratis (bijdrage wordt gewaardeerd)",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar ...(?)"
+        },
+        "categories": [
+            "ontspanning"
+        ]
+    },
+    {
+        "name": "Verwerking van natuurlijke taal: basics",
+        "trainer": {
+            "name": "Tim",
+            "avatar": "https://picsum.photos/320/320?random=1"
+        },
+        "description": "Wil jij weten wat de bouwstenen zijn onder Google translate? Of welke stappen er nodig zijn om brieven uit de Gouden Eeuw doorzoekbaar te maken voor digitaal historisch onderzoek? Volg dan de cursus NLP (natural language processing)!",
+        "audience": "Iedereen die van taal en computers houdt",
+        "duration": "2 uur",
+        "start": "Onbekend",
+        "cost": "Gratis (bijdrage wordt gewaardeerd)",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar ...(?)"
+        },
+        "categories": [
+            "tech", "taal"
+        ]
+    },
+    {
+        "name": "De basis van queuing theory",
+        "trainer": {
+            "name": "Tim",
+            "avatar": "https://picsum.photos/320/320?random=1"
+        }, 
+        "description": "Zie jij ook vaak rijen, maar gedragen je klanten zich onverspelbaar? Leer planningsbeslissingen nemen met behulp van Queuing Theory!",
+        "audience": "Iedereen die vaak in de rij staat en van toegepaste wiskunde houdt",
+        "duration": "2 uur",
+        "start": "Onbekend",
+        "cost": "Gratis (bijdrage wordt gewaardeerd)",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar ...(?)"
+        },
+        "categories": [
+            "wiskunde"
+        ]
+    },
+    {
+        "name": "Jouw cursus?",
+        "trainer": {
+            "name": "Jouw naam?",
+            "avatar": "https://picsum.photos/320/320?random=2"
+        },
+        "description": "Zelf een cursus geven? Lees de tips door en ga aan de slag!",
+        "audience": "Iedereen",
+        "duration": "Zolang je wilt",
+        "start": "Wanneer je wilt",
+        "cost": "Gratis, met vrijwillige bijdrage, of kosten van deelname?",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Open de tiplijst!"
+        },
+        "categories": [
+            "overig, diy"
+        ]
+    },
+    {
         "name": "workshop web - data - geo",
         "trainer": {
             "name": "Niene",
@@ -10,7 +86,10 @@
         "duration": "2w",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]
@@ -26,7 +105,10 @@
         "duration": "4u",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]
@@ -42,7 +124,10 @@
         "duration": "2u",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]
@@ -58,7 +143,10 @@
         "duration": "8u",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]
@@ -74,7 +162,10 @@
         "duration": "2u",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]
@@ -90,7 +181,10 @@
         "duration": "2u",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]
@@ -106,13 +200,16 @@
         "duration": "2u",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]
     },
     {
-        "name": "Introductie datagebruik",
+        "name": "Burger centraal",
         "trainer": {
             "name": "Arjan",
             "avatar": "https://img.codefor.nl/?url=https://www.divosa.nl/sites/default/files/guide/divosa_vrijdag_arjan_widlag.jpg&width=320"
@@ -122,7 +219,10 @@
         "duration": "2u",
         "start": "Onbekend",
         "cost": "Onbekend",
-        "link": "http://interne.of.externe.link",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
         "categories": [
             "techtalks"
         ]

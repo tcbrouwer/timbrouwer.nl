@@ -1,12 +1,12 @@
 <template>
   <b-card
-    :img-src="picurl()"
+    :img-src="trainer().avatar"
     img-alt="vue"
     img-top
     style="min-width: 20rem; max-width: 25rem"
   >
     <b-card-title>{{ course.name }}</b-card-title>
-    <b-card-sub-title class="mb-2">Trainer: {{ name() }}</b-card-sub-title>
+    <b-card-sub-title class="mb-2">Trainer: {{ trainer().name }}</b-card-sub-title>
     <b-card-text>
       {{ description() }}
     </b-card-text>
@@ -14,10 +14,10 @@
       <b-list-group-item>Doelgroep: {{ audience() }}</b-list-group-item>
       <b-list-group-item>Duur: {{ duration() }}</b-list-group-item>
       <b-list-group-item>Moment: {{ start() }}</b-list-group-item>
-      <b-list-group-item>Kosten: {{ costs() }}</b-list-group-item>
+      <b-list-group-item>Kosten: {{ cost() }}</b-list-group-item>
     </b-list-group>
     <template v-slot:footer>
-      <a :href="course.link">Ga naar de cursus/site!</a>
+      <a :href="link().url">{{ link().text }}</a>
     </template>
   </b-card>
 </template>
@@ -28,34 +28,48 @@ export default {
   props: ["course"],
   data() {
     return {
-      picurl: () => {
-        if (this.course.trainer && this.course.trainer.avatar) {
-          return this.course.trainer.avatar;
-        }
-        return "https://picsum.photos/200/200?random=" + Math.random();
+      audience: () => {
+        return this.course.audience ? this.course.audience : "Iedereen"
       },
-      name: () => {
-        return this.course.door ? this.course.door : this.course.trainer.name;
+      cost: () => {
+        return this.course.cost ? this.course.cost: "Onbekend"
       },
       description: () => {
-        return this.course.flavortext
-          ? this.course.flavortext
-          : this.course.description;
+        return this.course.description ? this.course.description : "Geen beschrijving beschikbaar"
       },
       duration: () => {
-        return this.course.duur ? this.course.duur : this.course.duration;
+        return this.course.duration ? this.course.duration : "Onbekend"
+      },
+      link: () => {
+        if( this.course.link === null ) {
+          return { url: "", text: "Nog geen link" }
+        } else {
+          return {
+            url: this.course.link.url ? this.course.link.url : "",
+            text: this.course.link.text ? this.course.link.text : "Meer informatie"
+          }
+        }
+      },
+      trainer: () => {
+        if( this.course.trainer === null ) {
+          return { name: "Onbekend", avatar: this.randomPic() }
+        } else {
+          return {
+            name: this.course.trainer.name ? this.course.trainer.name : "Onbekend",
+            avatar: this.course.trainer.avatar ? this.course.trainer.avatar : this.randomPic()
+          }
+        }
       },
       start: () => {
-        return this.course.moment || this.course.start;
-      },
-      costs: () => {
-        return this.course.kosten || this.course.cost;
-      },
-      audience: () => {
-        return this.course.doelgroep || this.course.audience;
-      },
+        return this.course.start ? this.course.start : "Onbekend"
+      },      
     };
   },
+  methods: {
+    randomPic() {
+      return "https://picsum.photos/200/200?random=" + Math.random()
+    }
+  }
 };
 </script>
 

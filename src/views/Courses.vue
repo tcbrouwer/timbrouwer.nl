@@ -18,32 +18,26 @@ import CourseCard from './courses/CourseCard.vue'
 import CourseRequest from './courses/CourseRequest.vue'
 
 // This is a stub, should load from server
-// cultuur
-
-// ontspanning
-import jongleren from '@/content/ontspanning/jongleren.json'
-
-// tech
-import nlp from '@/content/tech/nlp.json'
-import queuing from '@/content/tech/queuing.json'
-
-
-// template
-import template from '@/content/template/template.json'
 import courses from '@/content/courses.json'
+
 export default {
   name: 'Courses',
   components: {
     CourseCard,
     CourseRequest
   },
-  computed: {
-    courses() {
-      return [
-        jongleren, // ontspanning
-        nlp, queuing, // tech
-        template // template
-      ].concat(courses)
+  data() {
+    return {
+      courses: []
+    }
+  },
+  mounted() {
+    this.getCourses()
+  },
+  methods: {
+    getCourses() {
+      // This should become an API call to server
+      this.courses = courses
     }
   }
 }

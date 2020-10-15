@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <WelcomeMessage />
-    <!-- <Categories /> -->
     <Courses />
     <TipList />
     <Contact />
@@ -10,7 +9,6 @@
 </template>
 
 <script lang="ts">
-// import Categories from '@/views/Categories.vue'
 import Contact from '@/views/Contact.vue'
 import Courses from '@/views/Courses.vue'
 import FAQ from '@/views/FAQ.vue'
@@ -20,7 +18,6 @@ import WelcomeMessage from '@/views/WelcomeMessage.vue'
 export default {
   name: 'App',
   components: {
-    // Categories,
     Contact,
     Courses,
     FAQ,
