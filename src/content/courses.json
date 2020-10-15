@@ -1,0 +1,130 @@
+[
+    {
+        "name": "workshop web - data - geo",
+        "trainer": {
+            "name": "Niene",
+            "avatar": "https://img.codefor.nl/?url=http://www.webmapper.net/img/niene.png&width=320"
+        },
+        "description": "Web essentials voor geo, geo essentials voor web. Je hoeft geen GIS- of web-expert te zijn, maar dat mag wel! ",
+        "audience": "Iedereen",
+        "duration": "2w",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Introductie web en api's",
+        "trainer": {
+            "name": "Johan",
+            "avatar": "https://img.codefor.nl/?url=https://pbs.twimg.com/profile_images/1070002308715565057/A-lpi-UL_400x400.jpg&width=320"
+        },
+        "description": "Hoe werkt het web en wat zijn web services? Een introductie voor beleidsmakers en projectmanagers. ",
+        "audience": "Beleidsmakers en projectmanagers",
+        "duration": "4u",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Open source werken",
+        "trainer": {
+            "name": "Milo",
+            "avatar": "https://img.codefor.nl/?url=https://www.codefor.nl/img/milo.jpg&width=320"
+        },
+        "description": "Open source is meer dan software, het is een manier van samenwerken. Leer meer over hoe dat werkt.",
+        "audience": "Iedereen",
+        "duration": "2u",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Iedereen kan tekenen",
+        "trainer": {
+            "name": "Anne",
+            "avatar": "https://img.codefor.nl/?url=https://yt3.ggpht.com/a/AGF-l79Ktqa8j3CU5Pvh2VbdKTTRn9oOt971ZRxttg=s900-c-k-c0xffffffff-no-rj-mo&width=320"
+        },
+        "description": "Leer tekenen inzetten voor betere communicatie en samenwerking, voor meer duidelijkheid en begrip.",
+        "audience": "Iedereen",
+        "duration": "8u",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "De slimme stad",
+        "trainer": {
+            "name": "Marcel",
+            "avatar": "https://img.codefor.nl/?url=https://miro.medium.com/max/3150/1*4E8Ui8pETAc_vSbHZolxIQ.jpeg&width=320"
+        },
+        "description": "Smart Cities lijken een nieuw fenomeen, maar het gaat verder terug dan je denkt.",
+        "audience": "Iedereen",
+        "duration": "2u",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Agile werken",
+        "trainer": {
+            "name": "Joris",
+            "avatar": "https://img.codefor.nl/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTsCeR1zuZ9JfNAQ1Hh9X4tzxnnzHeBZMnOjnHW-_DQ8_L_xDF&width=320"
+        },
+        "description": "Beginnen met Agile werken in teams en opschalen van Agile werken.",
+        "audience": "Iedereen",
+        "duration": "2u",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Introductie datagebruik",
+        "trainer": {
+            "name": "Fleur",
+            "avatar": "https://img.codefor.nl/?url=https://pbs.twimg.com/profile_images/842125977782214659/wADSTW8p_400x400.jpg&width=320"
+        },
+        "description": "Kun je data altijd middelen? Wanneer gebruik je een cirkeldiagram? Leer wat data is, en hoe je het gebruikt.",
+        "audience": "Iedereen",
+        "duration": "2u",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Introductie datagebruik",
+        "trainer": {
+            "name": "Arjan",
+            "avatar": "https://img.codefor.nl/?url=https://www.divosa.nl/sites/default/files/guide/divosa_vrijdag_arjan_widlag.jpg&width=320"
+        },
+        "description": "Digitale transformatie verandert de relatie tussen burger en overheid. Waarom gaat dit vaak mis, en hoe voorkomen we dat? ",
+        "audience": "Iedereen",
+        "duration": "2u",
+        "start": "Onbekend",
+        "cost": "Onbekend",
+        "link": "http://interne.of.externe.link",
+        "categories": [
+            "techtalks"
+        ]
+    }
+]

@@ -30,7 +30,7 @@ import queuing from '@/content/tech/queuing.json'
 
 // template
 import template from '@/content/template/template.json'
-
+import courses from '@/content/courses.json'
 export default {
   name: 'Courses',
   components: {
@@ -43,7 +43,7 @@ export default {
         jongleren, // ontspanning
         nlp, queuing, // tech
         template // template
-      ]
+      ].concat(courses)
     }
   }
 }
