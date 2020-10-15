@@ -14,19 +14,23 @@
 <script lang="ts">
 import CategoryCard from './categories/CategoryCard.vue'
 
+// This is a stub, should load from server
+import cultuur from '@/content/cultuur.json'
+import diy from '@/content/diy.json'
+import ontspanning from '@/content/ontspanning.json'
+import tech from '@/content/tech.json'
+import template from '@/content/template.json'
+
 
 export default {
   name: 'Categories',
   components: {
     CategoryCard
   },
-  data() {
-    return {
-      categories: [ 
-          { name: "Tech" },
-          { name: "Cultuur" },
-          { name: "Doe het zelf" },
-          { name: "Ontspanning" }
+  computed: {
+    categories() {
+      return [
+        cultuur, diy, ontspanning, tech, template
       ]
     }
   }
