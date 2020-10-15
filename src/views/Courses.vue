@@ -4,8 +4,8 @@
     
     <div>
       <b-card-group class="m-5" deck>
-        <CourseCard v-for="course in courses" :key=course.id
-          :title = course.title
+        <CourseCard v-for="course in courses" :key=course.name
+          :course = course
         />
         <CourseRequest />
       </b-card-group>
@@ -17,6 +17,19 @@
 import CourseCard from './courses/CourseCard.vue'
 import CourseRequest from './courses/CourseRequest.vue'
 
+// This is a stub, should load from server
+// cultuur
+
+// ontspanning
+import jongleren from '@/content/ontspanning/jongleren.json'
+
+// tech
+import nlp from '@/content/tech/nlp.json'
+import queuing from '@/content/tech/queuing.json'
+
+
+// template
+import template from '@/content/template/template.json'
 
 export default {
   name: 'Courses',
@@ -24,37 +37,12 @@ export default {
     CourseCard,
     CourseRequest
   },
-  data() {
-    return {
-      courses: [
-        {
-          id: 0,
-          title: "Vue from scratch"
-        },
-        {
-          id: 1,
-          title: "Word vrienden met je hamster ... online!"
-        },
-        {
-          id: 2,
-          title: "Tech or Art. Appreciating(?) artificially generated art"
-        },
-        {
-          id: 3,
-          title: "Microbiology 101, what's in a virus?"
-        },
-        {
-          id: 4,
-          title: "Zelf brood bakken 1"
-        },
-        {
-          id: 5,
-          title: "Zelf brood bakken 2"
-        },
-        {
-          id: 6,
-          title: "Zelf brood bakken 3"
-        }
+  computed: {
+    courses() {
+      return [
+        jongleren, // ontspanning
+        nlp, queuing, // tech
+        template // template
       ]
     }
   }

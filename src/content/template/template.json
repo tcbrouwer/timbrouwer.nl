@@ -1,0 +1,10 @@
+{
+    "name": "Naam van de cursus",
+    "door": "Wie geeft de cursus? (Persoon / instituut)",
+    "flavortext": "Een pakkende omschrijving van de cursus",
+    "doelgroep": "Doelgroep van de cursus",
+    "duur": "Duur van de cursus",
+    "moment": "Aanduiding van de datum(s) en tijdstip(pen) van de cursus",
+    "kosten": "Gratis? Vrijwillige bijdrage?",
+    "link": "http://interne.of.externe.link"
+}
