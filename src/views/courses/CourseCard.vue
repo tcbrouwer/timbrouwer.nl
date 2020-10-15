@@ -5,20 +5,19 @@
         img-top
         style="min-width: 20rem; max-width: 25rem"
     >
-        <b-card-title>{{title}}</b-card-title>
-        <b-card-sub-title class="mb-2">Door Bim Trouwer</b-card-sub-title>
+        <b-card-title>{{course.name}}</b-card-title>
+        <b-card-sub-title class="mb-2">Door {{course.door}}</b-card-sub-title>
         <b-card-text>
-        Dit is een filler-course als voorbeeld.
-        Gegeven
+            {{course.flavortext}}
         </b-card-text>
         <b-list-group flush>
-        <b-list-group-item>Doelgroep: alle geïntresseerden met enige Front-end ervaring</b-list-group-item>
-        <b-list-group-item>Duur en vorm: Zoom-sessie van 2 uur</b-list-group-item>
-        <b-list-group-item>Datum: elke dinsdag om 14:00</b-list-group-item>
-        <b-list-group-item>Kosten: Gratis! (bijdrage wordt gewaardeerd)</b-list-group-item>
+        <b-list-group-item>Doelgroep: {{course.doelgroep}}</b-list-group-item>
+        <b-list-group-item>Duur: {{course.duur}}</b-list-group-item>
+        <b-list-group-item>Moment: {{course.moment}}</b-list-group-item>
+        <b-list-group-item>Kosten: {{course.kosten}}</b-list-group-item>
         </b-list-group>
         <template v-slot:footer>
-        <a href="#">Ga naar de site!</a>
+        <a :href="course.link">Ga naar de cursus/site!</a>
         </template>
     </b-card> 
 </template>
@@ -26,7 +25,7 @@
 <script lang="ts">
 export default {
   name: 'CourseCard',
-  props: ['title'],
+  props: ['course'],
   data() {
       return {
           picurl: "https://picsum.photos/200/200?random=" + Math.random()  
