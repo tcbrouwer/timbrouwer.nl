@@ -3,7 +3,7 @@
         :img-src="picurl" 
         img-alt="vue" 
         img-top
-        style="min-width: 20rem; max-width: 30rem"
+        style="min-width: 20rem; max-width: 25rem"
     >
         <b-card-title>{{title}}</b-card-title>
         <b-card-sub-title class="mb-2">Door Bim Trouwer</b-card-sub-title>

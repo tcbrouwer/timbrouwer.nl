@@ -3,7 +3,7 @@
         :img-src="url" 
         img-alt="vue" 
         img-top
-        style="min-width: 20rem; max-width: 30rem"
+        style="min-width: 25rem; max-width: 30rem"
     >
         <b-card-title>{{name}}</b-card-title>
         
