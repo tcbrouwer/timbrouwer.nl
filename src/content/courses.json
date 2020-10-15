@@ -189,5 +189,44 @@
         "categories": [
             "techtalks"
         ]
+    },
+    {
+        "name": "GDPR: feiten en fabels",
+        "trainer": {
+            "name": "J. urist"
+        },
+        "categories": [
+            "tech"
+        ]
+    },
+    {
+        "name": "中文？当然！ Chinees natuurlijk!",
+        "trainer": {
+            "name": "Tim?",
+            "avatar": "https://picsum.photos/320/320?random=1"
+        },
+        "description": "(Of was het nou 當然?) Chinees, dat is toch supermoeilijk omdat ze geen letters gebruiken? Kunnen ze geen plaatjes gebruiken? Ja zeker! Leer hoe Chinees gebruik maakt van ideogrammen. Begin vast met oefenen: 一，二，三。。。",
+        "audience": "Iedereen met interesse in taal",
+        "duration": "1 week",
+        "start": "Wanneer je wilt",
+        "cost": "Gratis",
+        "categories": [
+            "taal"
+        ]
+    },
+    {
+        "name": "Olympic starterkit Japans",
+        "trainer": {
+            "name": "Tim?",
+            "avatar": "https://picsum.photos/320/320?random=1"
+        },
+        "description": "Kijk jij straks als een baas de Tokyo Olympics 2021? Bereid je woordenschat nu vast voor: 一、二、三。。。",
+        "audience": "Iedereen met interesse in taal en/of sport",
+        "duration": "1 week",
+        "start": "Wanneer je wilt",
+        "cost": "Gratis",
+        "categories": [
+            "taal"
+        ]
     }
 ]
