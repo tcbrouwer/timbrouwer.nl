@@ -61,14 +61,14 @@
             "name": "Jouw naam?",
             "avatar": "https://picsum.photos/320/320?random=2"
         },
-        "description": "Zelf een cursus geven? Lees de tips door en ga aan de slag!",
+        "description": "Geef je iedere dag al een lezing? Of wil je ook eens proberen je kennis over te dragen aan een breed publiek? Start je eigen quarantaine-cursus!",
         "audience": "Iedereen",
         "duration": "Zolang je wilt",
         "start": "Wanneer je wilt",
         "cost": "Gratis, met vrijwillige bijdrage, of kosten van deelname?",
         "link": {
-            "url": "http://interne.of.externe.link",
-            "text": "Open de tiplijst!"
+            "url": "https://codefornl.slack.com/app_redirect?channel=quarantaine-academy",
+            "text": "Kom naar de Code4NL Slack om het te bespreken"
         },
         "categories": [
             "overig, diy"
