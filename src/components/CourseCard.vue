@@ -1,7 +1,7 @@
 <template>
   <b-card
     :img-src="trainer.avatar"
-    img-alt="vue"
+    img-alt="avatar"
     img-top
     style="min-width: 15rem; max-width: 25rem"
     class="mb-5"
@@ -76,8 +76,4 @@ export default {
 </script>
 
 <style scoped>
-.b-card {
-  max-width: 40rem;
-  min-width: 40rem;
-}
 </style>
