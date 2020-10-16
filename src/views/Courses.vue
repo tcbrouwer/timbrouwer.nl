@@ -20,6 +20,7 @@ import CourseCard from "@/components/CourseCard.vue";
 // This is a stub, should load from server
 import code4nl from "@/content/code4nl.json";
 import courses from "@/content/courses.json";
+import zelfdoen from "@/my_content/zelfdoen.json";
 import externals from "@/content/externals.json";
 
 export default {
@@ -41,7 +42,7 @@ export default {
     },
     getCourses() {
       // This should become an API call to server
-      this.courses = courses.concat(externals).concat(code4nl);
+      this.courses = courses.concat(zelfdoen).concat(externals).concat(code4nl);
     },
   },
 };
