@@ -1,19 +1,38 @@
 <template>
   <div>
     <h1>Veelgestelde vragen</h1>
-    <p>
-      Q: Maar waarom kan ik dit niet doen via Meetup / mijn werkgever / andere bron?
-    </p>
-    <p>
-        A: Natuurlijk kun je daar gebruik van maken! Deze site is slechts een aanvulling met cursusaanbod specifiek geschikt voor tijdens de quarantaine. Waar wacht je nog op?
-    </p>
-    
+    <hr>
+    <div v-for="aq in faq" :key="aq.a">
+      <p>
+        Q: {{ aq.q }}
+      </p>
+      <p>
+          A: {{ aq.a }}
+      </p>
+      <hr>
+      </div>
   </div>
 </template>
 
 <script lang="ts">
+import faq from '@/content/faq.json'
+
 export default {
-  name: 'FAQ'
+  name: 'FAQ',
+  data() {
+    return {
+      faq: []
+    }
+  },
+  mounted() {
+    this.getFAQ()
+  },
+  methods: {
+    getFAQ() {
+      // Should get from server
+      this.faq = faq 
+    }
+  }
 }
 </script>
 
