@@ -15,6 +15,7 @@ import StepCard from '@/components/StepCard.vue'
 import chinees from '@/content/courses/chinees.json'
 import defaultCourse from '@/content/courses/default.json'
 import jongleren from '@/content/courses/jongleren.json'
+import zelf from '@/my_content/stappen.json'
 
 
 export default {
@@ -36,6 +37,8 @@ export default {
         return chinees
       } else if( this.courseName === "jongleren") {
         return jongleren
+      } else if( this.courseName === "zelf" ) {
+        return zelf
       } else {
         return defaultCourse
       }
