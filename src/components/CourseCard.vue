@@ -58,7 +58,7 @@ export default {
     },
     mentor() {
       if( this.course.mentor === undefined ) {
-        return { name: "Onbekend", role: "Mentor:", avatar: this.randomPic() }
+        return { name: "Onbekend", role: "Mentor", avatar: this.randomPic() }
       } else {
         return {
           name: this.course.mentor.name ? this.course.mentor.name : "Onbekend",
