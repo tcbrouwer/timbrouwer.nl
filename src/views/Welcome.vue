@@ -1,9 +1,9 @@
 <template>
   <div class="m-5">
     <img src="@/assets/logo.png" />
-    <h2>Welkom bij quarantaine.academy</h2>
+    <h2>Welkom op mijn site</h2>
     <p>
-      Quarantaine is voor niemand leuk. Om de pijn wat te verzachten vind je hier een overzicht van cursusaanbod, zodat je je tijd nuttig kunt besteden!
+      Ik heb 'm gebouwd met quarantaine.academy . Mooi hè!
     </p>
     
   </div>
