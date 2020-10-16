@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Cursus aanbod</h1>
+    <h1>Cursus aanbod (Concept)</h1>
     
     <div>
       <b-card-group class="m-3" deck>
