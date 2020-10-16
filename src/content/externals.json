@@ -29,5 +29,19 @@
             "url": "https://www.youtube.com/watch?v=hFxjx7guJTc",
             "text": "Bekijk op youtube.com"
         }
+    },
+    {
+        "name": "Het Grootste Coronaspreekuur van Nederland op 5 november",
+        "mentor": {
+            "name": "Jeroen Pauw en Ajouad el Miloudi",
+            "role": "Presentatoren"
+        },
+        "duration": "2 uur",
+        "start": "5 november van 19:30",
+        "cost": "Gratis natuurlijk",
+        "link": {
+            "url": "https://www.cbg-meb.nl/actueel/nieuws/2020/10/16/het-grootste-coronaspreekuur-van-nederland-op-5-november",
+            "text": "Bekijk op cbg-meb.nl"
+        }
     }
 ]
