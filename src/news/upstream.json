@@ -1,0 +1,14 @@
+{
+    "name": {
+        "short": "upstream",
+        "full": "Groeten uit de upstream"
+    },
+    "mentor": {
+        "name": "quarantaine.academy"
+    },
+    "description": "Remember your upstream and good luck!",
+    "link": {
+        "url": "http://quarantaine.academy",
+        "text": "Ga naar de upstream!"
+    }
+}

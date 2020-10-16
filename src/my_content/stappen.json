@@ -1,0 +1,38 @@
+{
+    "title": "Zelf een website maken",
+    "steps": [
+        {
+            "title": "Bedenk wat je wilt delen",
+            "text": [
+                "Een website maken is leuk, maar er moet straks natuurlijk wel iets leuks op!",
+                "Bedenk wat je gaat delen en zoek alvast mensen die je daarbij kunnen helpen."
+            ]
+        },
+        {
+            "title": "Zoek een mentor en/of doe een cursus",
+            "text": [
+                "Het wiel is niet alleen uitgevonden! Als er mensen zijn met wie je iets wilt delen, zijn er vast ook mensen doe jou willen helpen.",
+                "Leren doe je door doen. Een goede mentor of cursus zorgt ervoor dat jij veilig kunt leren en experimenteren. En je hebt ook meteen iemand om te overstijgen als je zelf mentor wordt."
+            ]
+        },
+        {
+            "title": "Je moet ergens beginnen",
+            "text": [
+                "Technologie verandert razendsnel. Kennis die je nu op doet is straks achterhaald. Maar de vaardigheden blijven! Je moet dus ergens instappen, en vanaf daar meegroeien.",
+                "Als je wilt kun je quarantaine.academy als instappunt gebruiken. Volg dan de stappen hieronder."
+            ]
+        },
+        {
+            "title": "Help mee!",
+            "text": [
+                "Leren doe je samen!",
+                "Wil jij helpen met deze cursus door je expertise of je kritische vragen in te brengen? Je inbreng wordt zeer gewaardeerd!",
+                "In de conceptfase kun je ons nog vinden in de Code4NL Slack."
+            ],
+            "link": {
+                "url": "https://codefornl.slack.com/app_redirect?channel=quarantaine-academy",
+                "text": "Ga naar het kanaal in Code4NL Slack!"
+            }
+        }
+    ]
+}

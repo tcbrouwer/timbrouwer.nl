@@ -10,5 +10,9 @@
     {
         "q": "Wanneer gaat de site van concept naar live?",
         "a": "Als ie mooi genoeg is. Daar kun je zelf aan bijdragen, zie hierboven."
+    },
+    {
+        "q": "Mijn cursus staat er niet bij!",
+        "a": "De code is open source. Forken en aan de slag! Remember you upstream and good luck!"
     }  
 ]
