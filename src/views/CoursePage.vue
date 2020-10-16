@@ -13,6 +13,7 @@ import StepCard from '@/components/StepCard.vue'
 
 // This is a stub, should load from server
 import chinees from '@/content/courses/chinees.json'
+import defaultCourse from '@/content/courses/default.json'
 import jongleren from '@/content/courses/jongleren.json'
 
 
@@ -36,7 +37,7 @@ export default {
       } else if( this.courseName === "jongleren") {
         return jongleren
       } else {
-        return chinees // should of course return a filler
+        return defaultCourse
       }
     }
   }

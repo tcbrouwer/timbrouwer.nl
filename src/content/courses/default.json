@@ -1,0 +1,17 @@
+{
+    "title": "Werk mee aan deze cursus!",
+    "steps": [
+        {
+            "title": "Help mee!",
+            "text": [
+                "Leren doe je samen!",
+                "Wil jij helpen met deze cursus door je expertise of je kritische vragen in te brengen? Je inbreng wordt zeer gewaardeerd!",
+                "In de conceptfase kun je ons nog vinden in de Code4NL Slack."
+            ],
+            "link": {
+                "url": "https://codefornl.slack.com/app_redirect?channel=quarantaine-academy",
+                "text": "Ga naar het kanaal in Code4NL Slack!"
+            }
+        }
+    ]
+}
