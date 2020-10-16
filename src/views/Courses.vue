@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts">
-import CourseCard from './courses/CourseCard.vue'
+import CourseCard from '@/components/CourseCard.vue'
 
 // This is a stub, should load from server
 import courses from '@/content/courses.json'
