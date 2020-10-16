@@ -1,18 +1,33 @@
-{
-    "name": "OMOOC.nl",
-    "trainer": {
-        "name": "Zie OMOOC website"
+[
+    {
+        "name": "OMOOC.nl",
+        "mentor": {
+            "name": "Zie OMOOC website"
+        },
+        "description": "OMOOC bouwt aan hét kennislandschap binnen het openbaar bestuur. Samen met overheden en kennisinstellingen maakt het bestaand en nieuw aanbod van good én bad practices open en toegankelijk. Inmiddels is er een grote collectie MOOCs (Massive Online Open Courses) gelanceerd.",
+        "audience": "Iedereen die met openbaar bestuur te maken heeft",
+        "duration": "Zie OMOOC website",
+        "start": "Zie OMOOC website",
+        "cost": "Gratis",
+        "link": {
+            "url": "https://omooc.nl/",
+            "text": "Ga naar OMOOC.nl"
+        },
+        "categories": [
+            "overig, diy"
+        ]
     },
-    "description": "OMOOC bouwt aan hét kennislandschap binnen het openbaar bestuur. Samen met overheden en kennisinstellingen maakt het bestaand en nieuw aanbod van good én bad practices open en toegankelijk. Inmiddels is er een grote collectie MOOCs (Massive Online Open Courses) gelanceerd.",
-    "audience": "Iedereen die met openbaar bestuur te maken heeft",
-    "duration": "Zie OMOOC website",
-    "start": "Zie OMOOC website",
-    "cost": "Gratis",
-    "link": {
-        "url": "https://omooc.nl/",
-        "text": "Ga naar OMOOC.nl"
-    },
-    "categories": [
-        "overig, diy"
-    ]
-}
+    {
+        "name": "Video: Heartificial Intelligence - Embracing Our Humanity to Maximize Machines",
+        "mentor": {
+            "name": "John"
+        },
+        "duration": "29 minuten",
+        "start": "Zodra je tijd hebt",
+        "cost": "Gratis natuurlijk",
+        "link": {
+            "url": "https://www.youtube.com/watch?v=hFxjx7guJTc",
+            "text": "Bekijk op youtube.com"
+        }
+    }
+]

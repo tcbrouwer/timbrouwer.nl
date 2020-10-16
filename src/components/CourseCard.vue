@@ -1,13 +1,13 @@
 <template>
   <b-card
-    :img-src="trainer.avatar"
+    :img-src="mentor.avatar"
     img-alt="avatar"
     img-top
     style="min-width: 15rem; max-width: 25rem"
     class="m-3"
   >
     <b-card-title>{{ name }}</b-card-title>
-    <b-card-sub-title class="m-2">Trainer: {{ trainer.name }}</b-card-sub-title>
+    <b-card-sub-title class="m-2">{{ mentor.role }}: {{ mentor.name }}</b-card-sub-title>
     <b-card-text>
       {{ description }}
     </b-card-text>
@@ -56,13 +56,14 @@ export default {
     start() {
       return this.course.start ? this.course.start : "Onbekend"
     },
-    trainer() {
-      if( this.course.trainer === undefined ) {
-        return { name: "Onbekend", avatar: this.randomPic() }
+    mentor() {
+      if( this.course.mentor === undefined ) {
+        return { name: "Onbekend", role: "Mentor:", avatar: this.randomPic() }
       } else {
         return {
-          name: this.course.trainer.name ? this.course.trainer.name : "Onbekend",
-          avatar: this.course.trainer.avatar ? this.course.trainer.avatar : this.randomPic()
+          name: this.course.mentor.name ? this.course.mentor.name : "Onbekend",
+          role: this.course.mentor.role ? this.course.mentor.role : "Mentor",
+          avatar: this.course.mentor.avatar ? this.course.mentor.avatar : this.randomPic()
         }
       }
     },      
