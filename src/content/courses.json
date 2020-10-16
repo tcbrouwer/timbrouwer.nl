@@ -42,20 +42,6 @@
         ]
     },
     {
-        "name": "De basis van queuing theory",
-        "mentor": {
-            "name": "Tim",
-            "avatar": "https://picsum.photos/320/320?random=1"
-        }, 
-        "description": "Zie jij ook vaak rijen, maar gedragen je klanten zich onverspelbaar? Leer planningsbeslissingen nemen met behulp van Queuing Theory!",
-        "audience": "Iedereen die vaak in de rij staat en van toegepaste wiskunde houdt",
-        "duration": "2 uur",
-        "cost": "Gratis (bijdrage wordt gewaardeerd)",
-        "categories": [
-            "wiskunde"
-        ]
-    },
-    {
         "name": "Jouw cursus?",
         "mentor": {
             "name": "Jouw naam?",
@@ -210,15 +196,6 @@
         },
         "categories": [
             "techtalks"
-        ]
-    },
-    {
-        "name": "GDPR: feiten en fabels",
-        "mentor": {
-            "name": "J. urist"
-        },
-        "categories": [
-            "tech"
         ]
     },
     {
