@@ -10,7 +10,6 @@
     <b-card-sub-title class="m-2"
       >{{ mentor.role }}: {{ mentor.name }}</b-card-sub-title
     >
-    {{course.name.short}}
     <b-card-text>
       {{ description }}
     </b-card-text>
@@ -49,7 +48,7 @@ export default {
       return this.course.duration ? this.course.duration : "Onbekend";
     },
     isInternal() {
-      return this.link.url === undefined
+      return this.course.link === null || this.course.link === undefined
     },
     link() {
       const defaultURL = "/courses/" + this.course.name.short
