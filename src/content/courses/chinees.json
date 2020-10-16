@@ -9,5 +9,79 @@
             "url": "https://nl.wiktionary.org/wiki/%E4%B8%80",
             "text": "Bekijk op wiktionary.org"
         }
+    },
+    {
+        "title": "二 (<i>èr</i>)",
+        "text": [
+            "Betekenis: twee",
+            "Twee strepen, om het concept 'twee' aan te duiden. Logisch toch?",
+            "Hoe zou je zelf 3,4,5,6 ... opschrijven?"
+        ],
+        "link": {
+            "url": "https://nl.wiktionary.org/wiki/%E4%BA%8C",
+            "text": "Bekijk op wiktionary.org"
+        }
+    },
+    {
+        "title": "三 (<i>sān</i>)",
+        "text": [
+            "Betekenis: drie",
+            "Deze is voorspelbaar. Blijft het zo makkelijk?",
+            "Soms is een teken samengesteld, of moeilijker af te leiden. Maar de basis ligt in dit soort ideogrammen.",
+            "Vergelijk: 一， 二， 三， 四， 五， 六， 七， 八， 九， 十",
+            "Welk teken betekent hier 'tien' denk je?",
+            "En hoe zou je 'elf' opschrijven?"
+        ],
+        "link": {
+            "url": "https://nl.wiktionary.org/wiki/%E4%B8%89",
+            "text": "Bekijk op wiktionary.org"
+        }
+    },
+    {
+        "title": "中 (<i>zhōng</i>)",
+        "text": [
+            "Betekenis: midden; China",
+            "Kun jij zien waarom deze streep door het midden wordt gebruikt om 'midden' aan te duiden?",
+            "Van Chinees perspectief liggen ze zelf in het midden van de wereld (vergelijk met eurocentrische kaarten in Nederlandse atlassen). Daarom wordt China(中国） aangeduidt als het 'midden'(中) 'land(国)'.",
+            "Noot: deze tekens worden in meerdere talen gebruikt, je kunt dus wel eens een omschrijving in een andere taal tegenkomen."
+        ],
+        "link": {
+            "url": "https://en.wiktionary.org/wiki/%E4%B8%AD",
+            "text": "Bekijk op wiktionary.org"
+        }
+    },
+    {
+        "title": "当然 en 當然",
+        "text": [
+            "Er zijn verschillende varianten van Chinees schrift in omloop.",
+            "Welke is 'vereenvoudigd' en welke is 'traditioneel' denk je?"
+        ],
+        "link": {
+            "url": "https://en.wiktionary.org/wiki/%E5%BD%93%E7%84%B6",
+            "text": "Bekijk op wiktionary.org"
+        }
+    },
+    {
+        "title": "Tonen",
+        "text": [
+            "Chinees gebruik tonen in de uitspraak. Is dat moeilijk? Ja! Is dat te leren? Ja!",
+            "Hoeveel tonen moet je leren voor Chinees denk je? En maakt het nog uit met wie je spreekt?"
+        ],
+        "link": {
+            "url": "https://en.wikipedia.org/wiki/Chinese_language#Phonology",
+            "text": "Bekijk op wikipedia.org"
+        }
+    },
+    {
+        "title": "Help mee!",
+        "text": [
+            "Leren doe je samen!",
+            "Wil jij helpen met deze cursus door je expertise of je kritische vragen in te brengen? Je inbreng wordt zeer gewaardeerd!",
+            "In de conceptfase kun je ons nog vinden in de Code4NL Slack."
+        ],
+        "link": {
+            "url": "https://codefornl.slack.com/app_redirect?channel=quarantaine-academy",
+            "text": "Ga naar het kanaal in Code4NL Slack!"
+        }
     }
 ]

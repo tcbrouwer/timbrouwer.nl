@@ -1,7 +1,7 @@
 <template>
   <b-card
-    style="min-width: 15rem; max-width: 25rem"
-    class="mb-5"
+    style="min-width: 15rem; max-width: 25rem;"
+    class="m-3"
   >
     <b-card-title>            
         <span v-html="title" />

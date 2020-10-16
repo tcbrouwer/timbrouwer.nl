@@ -2,12 +2,8 @@
   <div>
     <h1>Cursus Chinees (Concept)</h1>
     
-    <div>
-      <b-card-group class="m-5" deck>
-        <StepCard v-for="step in steps" :key="step.title"
-          :step = step
-        />
-      </b-card-group>
+    <div v-for="step in steps" :key="step.title" class="d-flex justify-content-center">
+        <StepCard  :step = step />
     </div>  
   </div>
 </template>
