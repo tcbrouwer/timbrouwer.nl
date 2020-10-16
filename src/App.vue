@@ -1,13 +1,18 @@
 <template>
   <div id="app">
+    <Welcome />
     <router-view />
   </div>
 </template>
 
 <script lang="ts">
+import Welcome from "@/views/Welcome.vue"
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Welcome
+  }
 }
 </script>
 

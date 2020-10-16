@@ -7,7 +7,10 @@
     class="m-3"
   >
     <b-card-title>{{ name }}</b-card-title>
-    <b-card-sub-title class="m-2">{{ mentor.role }}: {{ mentor.name }}</b-card-sub-title>
+    <b-card-sub-title class="m-2"
+      >{{ mentor.role }}: {{ mentor.name }}</b-card-sub-title
+    >
+    {{course.name.short}}
     <b-card-text>
       {{ description }}
     </b-card-text>
@@ -18,7 +21,10 @@
       <b-list-group-item>Kosten: {{ cost }}</b-list-group-item>
     </b-list-group>
     <template v-slot:footer>
-      <a :href="link.url">{{ link.text }}</a>
+      <router-link v-if="isInternal" :to="link.url">
+        {{ link.text }}
+      </router-link>
+      <a v-else :href="link.url">{{ link.text }}</a>
     </template>
   </b-card>
 </template>
@@ -29,50 +35,68 @@ export default {
   props: ["course"],
   computed: {
     audience() {
-      return this.course.audience ? this.course.audience : "Iedereen"
+      return this.course.audience ? this.course.audience : "Iedereen";
     },
     cost() {
-      return this.course.cost ? this.course.cost: "Onbekend"
+      return this.course.cost ? this.course.cost : "Onbekend";
     },
     description() {
-      return this.course.description ? this.course.description : "Geen beschrijving beschikbaar"
+      return this.course.description
+        ? this.course.description
+        : "Geen beschrijving beschikbaar";
     },
     duration() {
-      return this.course.duration ? this.course.duration : "Onbekend"
+      return this.course.duration ? this.course.duration : "Onbekend";
+    },
+    isInternal() {
+      return this.link.url === undefined
     },
     link() {
-      if( this.course.link === undefined ) {
-        return { url: "", text: "Nog geen link" }
+      const defaultURL = "/courses/" + this.course.name.short
+      const defaultText = "Lees verder!"
+      if (this.course.link === undefined) {
+        return { url: defaultURL, text: defaultText };
       } else {
         return {
-          url: this.course.link.url ? this.course.link.url : "",
-          text: this.course.link.text ? this.course.link.text : "Meer informatie"
-        }
+          url: this.course.link.url ? this.course.link.url : defaultURL,
+          text: this.course.link.text
+            ? this.course.link.text
+            : defaultText,
+        };
       }
     },
     name() {
-      return this.course.name ? this.course.name : "" // name is used as key, so it should not be missing
+      // name is used as key, so it should not be missing
+      if( this.course.name === undefined ) {
+        return ""
+      } else if( this.course.name.full ) {
+        return this.course.name.full   
+      } else {
+        return this.course.name
+      }
     },
     start() {
-      return this.course.start ? this.course.start : "Onbekend"
+      return this.course.start ? this.course.start : "Onbekend";
     },
     mentor() {
-      if( this.course.mentor === undefined ) {
-        return { name: "Onbekend", role: "Mentor", avatar: this.randomPic() }
+      if (this.course.mentor === undefined) {
+        return { name: "Onbekend", role: "Mentor", avatar: this.randomPic() };
       } else {
         return {
           name: this.course.mentor.name ? this.course.mentor.name : "Onbekend",
           role: this.course.mentor.role ? this.course.mentor.role : "Mentor",
-          avatar: this.course.mentor.avatar ? this.course.mentor.avatar : this.randomPic()
-        }
+          avatar: this.course.mentor.avatar
+            ? this.course.mentor.avatar
+            : this.randomPic(),
+        };
       }
-    },      
+    },
   },
   methods: {
     randomPic() {
-      return "https://picsum.photos/200/200?random=" + Math.random()
-    }
-  }
+      return "https://picsum.photos/200/200?random=" + Math.random();
+    },
+  },
 };
 </script>
 
