@@ -1,0 +1,140 @@
+[
+    {
+        "name": "workshop web - data - geo",
+        "mentor": {
+            "name": "Niene",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=http://www.webmapper.net/img/niene.png&width=320"
+        },
+        "description": "Web essentials voor geo, geo essentials voor web. Je hoeft geen GIS- of web-expert te zijn, maar dat mag wel! ",
+        "duration": "2w",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Introductie web en api's",
+        "mentor": {
+            "name": "Johan",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=https://pbs.twimg.com/profile_images/1070002308715565057/A-lpi-UL_400x400.jpg&width=320"
+        },
+        "description": "Hoe werkt het web en wat zijn web services? Een introductie voor beleidsmakers en projectmanagers. ",
+        "audience": "Beleidsmakers en projectmanagers",
+        "duration": "4u",
+
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Open source werken",
+        "mentor": {
+            "name": "Milo",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=https://www.codefor.nl/img/milo.jpg&width=320"
+        },
+        "description": "Open source is meer dan software, het is een manier van samenwerken. Leer meer over hoe dat werkt.",
+        "duration": "2u",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Iedereen kan tekenen",
+        "mentor": {
+            "name": "Anne",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=https://yt3.ggpht.com/a/AGF-l79Ktqa8j3CU5Pvh2VbdKTTRn9oOt971ZRxttg=s900-c-k-c0xffffffff-no-rj-mo&width=320"
+        },
+        "description": "Leer tekenen inzetten voor betere communicatie en samenwerking, voor meer duidelijkheid en begrip.",
+        "duration": "8u",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "De slimme stad",
+        "mentor": {
+            "name": "Marcel",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=https://miro.medium.com/max/3150/1*4E8Ui8pETAc_vSbHZolxIQ.jpeg&width=320"
+        },
+        "description": "Smart Cities lijken een nieuw fenomeen, maar het gaat verder terug dan je denkt.",
+        "duration": "2u",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Agile werken",
+        "mentor": {
+            "name": "Joris",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTsCeR1zuZ9JfNAQ1Hh9X4tzxnnzHeBZMnOjnHW-_DQ8_L_xDF&width=320"
+        },
+        "description": "Beginnen met Agile werken in teams en opschalen van Agile werken.",
+        "duration": "2u",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Introductie datagebruik",
+        "mentor": {
+            "name": "Fleur",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=https://pbs.twimg.com/profile_images/842125977782214659/wADSTW8p_400x400.jpg&width=320"
+        },
+        "description": "Kun je data altijd middelen? Wanneer gebruik je een cirkeldiagram? Leer wat data is, en hoe je het gebruikt.",
+        "duration": "2u",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    },
+    {
+        "name": "Burger centraal",
+        "mentor": {
+            "name": "Arjan",
+            "role": "Trainer",
+            "avatar": "https://img.codefor.nl/?url=https://www.divosa.nl/sites/default/files/guide/divosa_vrijdag_arjan_widlag.jpg&width=320"
+        },
+        "description": "Digitale transformatie verandert de relatie tussen burger en overheid. Waarom gaat dit vaak mis, en hoe voorkomen we dat? ",
+        "duration": "2u",
+        "link": {
+            "url": "http://interne.of.externe.link",
+            "text": "Ga naar Code4NL(?)"
+        },
+        "categories": [
+            "techtalks"
+        ]
+    }
+]
