@@ -242,5 +242,10 @@
         "categories": [
             "taal"
         ]
+    },
+    {
+        "name": "Git started: beginnen met software",
+        "description": "Software ontwikkeld zich razendsnel. Daarbij is geen strategie zo universeel als version control. Wat is een mooier punt om in te stappen dat het ontdekken van version control aan de hand van git?",
+        "audience": "Iedereen doe nog niets, of juist heel veel van software weet"
     }
 ]
