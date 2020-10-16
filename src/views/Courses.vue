@@ -3,7 +3,7 @@
     <h1>Cursus aanbod</h1>
     
     <div>
-      <b-card-group class="m-5" deck>
+      <b-card-group class="m-3" deck>
         <CourseCard v-for="course in courses" :key=course.name
           :course = course
         />
@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts">
-import CourseCard from './courses/CourseCard.vue'
+import CourseCard from '@/components/CourseCard.vue'
 
 // This is a stub, should load from server
 import courses from '@/content/courses.json'

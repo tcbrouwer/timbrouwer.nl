@@ -1,13 +1,13 @@
 <template>
   <b-card
     :img-src="trainer.avatar"
-    img-alt="vue"
+    img-alt="avatar"
     img-top
     style="min-width: 15rem; max-width: 25rem"
-    class="mb-5"
+    class="m-3"
   >
     <b-card-title>{{ name }}</b-card-title>
-    <b-card-sub-title class="mb-2">Trainer: {{ trainer.name }}</b-card-sub-title>
+    <b-card-sub-title class="m-2">Trainer: {{ trainer.name }}</b-card-sub-title>
     <b-card-text>
       {{ description }}
     </b-card-text>
@@ -76,8 +76,4 @@ export default {
 </script>
 
 <style scoped>
-.b-card {
-  max-width: 40rem;
-  min-width: 40rem;
-}
 </style>

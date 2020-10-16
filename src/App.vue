@@ -4,11 +4,13 @@
     <WelcomeMessage />
     <Courses />
     <FAQ />
+    <CoursePageConcept />
   </div>
 </template>
 
 <script lang="ts">
 import Courses from '@/views/Courses.vue'
+import CoursePageConcept from '@/views/CoursePageConcept.vue'
 import FAQ from '@/views/FAQ.vue'
 import WelcomeMessage from '@/views/WelcomeMessage.vue'
 
@@ -16,6 +18,7 @@ export default {
   name: 'App',
   components: {
     Courses,
+    CoursePageConcept,
     FAQ,
     WelcomeMessage
   }
